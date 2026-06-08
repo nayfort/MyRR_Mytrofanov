@@ -1,0 +1,10 @@
+.gallery,
+.panel {
+  display: grid;
+  gap: 16px;
+}
+@media (min-width: 720px) {
+  .gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
